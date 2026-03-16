@@ -20,12 +20,12 @@ export default function Home() {
 
         {/* CTA Buttons */}
         <div className="flex gap-4 justify-center">
-          <button className="bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-white/90 transition">
+          <a href="/analyse" className="bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-white/90 transition">
             Start Analysing →
-          </button>
-          <button className="border border-white/20 text-white px-6 py-3 rounded-full hover:bg-white/10 transition">
+          </a>
+          <a href="/analyse" className="border border-white/20 text-white px-6 py-3 rounded-full hover:bg-white/10 transition">
             Learn how it works
-          </button>
+          </a>
         </div>
 
       </div>
